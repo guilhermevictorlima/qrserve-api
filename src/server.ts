@@ -9,16 +9,15 @@ class Server {
 		this.configExpress();
 	}
 
+	public start(): void {
+		this.app.listen(3333, () => console.log('Servidor inicializado'));
+	}
+
 	private configExpress(): void {
 		this.app.use(express.json());
 		this.app.use(cors());
 
 		this.routes();
-
-		this.app.listen(3333);
-	}
-
-	private middlewares(): void {
 	}
 
 	private routes(): void {
@@ -28,4 +27,4 @@ class Server {
 	}
 }
 
-new Server();
+new Server().start();
