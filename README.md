@@ -35,10 +35,17 @@ Commits must be written as an imperative sentence, like a order. For example, â€
 Follow the commit pattern based on the Angular convention:
 
 > `feat`: implementing a feature
+>
 > `fix`: fixing a bug
+>
 > `refactor`: refactoring
+>
 > `test`: automated tests
+>
 > `style`: code formatting
+>
 > `perf`: performance tuning
+>
 > `docs`: inserting documentation
+>
 > `build`: adjusting build settings
