@@ -50,7 +50,7 @@ Follow the commit pattern based on the Angular convention:
 >
 > `build`: adjusting build settings
 >
-> `chore`: no production code change; implementation (of an existing feature, which doesn't involve a fix), configuration (like the .gitignore or .gitattributes), etc
+> `chore`: no-production code change; implementation (of an existing feature, which doesn't involve a fix), configuration (like the .gitignore or .gitattributes), etc
 
 ### Examples
 
