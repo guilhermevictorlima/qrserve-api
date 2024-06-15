@@ -49,3 +49,13 @@ Follow the commit pattern based on the Angular convention:
 > `docs`: inserting documentation
 >
 > `build`: adjusting build settings
+>
+> `chore`: no production code change; implementation (of an existing feature, which doesn't involve a fix), configuration (like the .gitignore or .gitattributes), etc
+
+### Examples
+
+```bash
+git commit -m "feat: create new button"
+git commit -m "fix: fix duplicity"
+git commit -m "docs: update README with convention examples"
+```
