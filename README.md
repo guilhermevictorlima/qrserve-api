@@ -28,6 +28,12 @@ Start application:
 npm run dev
 ```
 
+To execute the DB console:
+
+```bash
+docker exec -ti qrserve-api-postgres-1 psql -U docker qrserve
+```
+
 ## Conventional Commits
 
 Commits must be written as an imperative sentence, like a order. For example, “Add feature” instead of “Added feature” or “Adding feature".
